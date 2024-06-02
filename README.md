@@ -159,7 +159,7 @@ It iterates through the array, passing each element in turn to the function. It
 then takes that function's return value and adds it to a new array, leaving the
 original array unchanged. That new array, containing the modified elements, is
 returned at the end after all iterations are complete.
-
+ 
 ```js
 const nums = [1,2,3];
 const squares = nums.map(x => x ** 2); 
